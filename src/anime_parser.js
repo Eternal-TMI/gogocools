@@ -9,7 +9,7 @@ import { extractStreamSB } from './helpers/extractors/streamsb.js';
 import { extractFembed } from './helpers/extractors/fembed.js';
 import { USER_AGENT, renameKey } from './utils.js';
 
-const BASE_URL = 'https://gogoanime3.net/';
+const BASE_URL = 'http://gogoanime3.net/';
 const BASE_URL2 = 'https://gogoanime3.net/';
 const ajax_url = 'https://ajax.gogo-load.com/';
 const anime_info_url = 'https://gogoanime3.net/category/';

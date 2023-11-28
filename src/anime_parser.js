@@ -9,10 +9,10 @@ import { extractStreamSB } from './helpers/extractors/streamsb.js';
 import { extractFembed } from './helpers/extractors/fembed.js';
 import { USER_AGENT, renameKey } from './utils.js';
 
-const BASE_URL = 'https://gogoanimehd.io/';
+const BASE_URL = 'https://gogoanime.tv/';
 const BASE_URL2 = 'http://gogoanime3.net/';
 const ajax_url = 'https://ajax.gogo-load.com/';
-const anime_info_url = 'https://gogoanimehd.io/category/';
+const anime_info_url = 'https://gogoanime3.net/category/';
 const anime_movies_path = '/anime-movies.html';
 const popular_path = '/popular.html';
 const new_season_path = '/new-season.html';
@@ -20,7 +20,7 @@ const search_path = '/search.html';
 const popular_ongoing_url = `${ajax_url}ajax/page-recent-release-ongoing.html`;
 const recent_release_url = `${ajax_url}ajax/page-recent-release.html`;
 const list_episodes_url = `${ajax_url}ajax/load-list-episode`;
-const seasons_url = 'https://gogoanimehd.io/sub-category/';
+const seasons_url = 'https://gogoanime3.net/sub-category/';
 
 const Referer = 'https://gogoplay.streamscripts.xyz/';
 const goload_stream_url = 'https://anihdplay.com/streaming.php';
